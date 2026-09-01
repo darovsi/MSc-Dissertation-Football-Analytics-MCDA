@@ -160,7 +160,7 @@ The Streamlit application delivers:
 ```bash
 # Clone the repository
 git clone https://github.com/<username>/player-selection-mcda.git
-cd player-selection-mcda
+cd MSc-Dissertation-Football-Analytics-MCDA
 
 # Create virtual environment & install dependencies
 python -m venv .venv
