@@ -152,6 +152,7 @@ The Streamlit application delivers transparent, position-specific player ranking
 ### Goals × Assists Scatter Plot
 
 <img width="900" height="460" alt="image" src="https://github.com/user-attachments/assets/78df7c37-63ef-4b3e-8f26-72985323a462" />
+
 *Scatter plot of goals vs assists sized by TOPSIS score, plus TOPSIS score distribution by player.*
 
 ### Liverpool FC — All Positions (FW, MF, DF, GK)
