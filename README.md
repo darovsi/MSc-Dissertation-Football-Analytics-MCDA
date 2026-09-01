@@ -146,6 +146,7 @@ The Streamlit application delivers transparent, position-specific player ranking
 ### Serie A 2024/25 — AC Milan Strikers Ranking
 
 <img width="920" height="471" alt="image" src="https://github.com/user-attachments/assets/1725335f-9166-4306-b7ee-1afbe20a1097" />
+
 *Interface ranking AC Milan strikers in Serie A 2024/25 with TOPSIS scores and Random Forest feature weights.*
 
 ### Goals × Assists Scatter Plot
@@ -156,11 +157,13 @@ The Streamlit application delivers transparent, position-specific player ranking
 ### Liverpool FC — All Positions (FW, MF, DF, GK)
 
 <img width="776" height="1352" alt="image" src="https://github.com/user-attachments/assets/60642401-eade-4786-bd21-528456c14cac" />
+
 *Player rankings and feature weights for all positions at Liverpool FC using Random Forest weighting.*
 
 ### Arsenal FC Forwards — Alternative Criteria Impact
 
 <img width="941" height="811" alt="image" src="https://github.com/user-attachments/assets/bb269af3-f770-4bea-b0f5-d6c3800c0bbc" />
+
 *Impact of alternative criteria settings on Arsenal forwards: rankings, feature weights, and performance analysis.*
 
 ---
