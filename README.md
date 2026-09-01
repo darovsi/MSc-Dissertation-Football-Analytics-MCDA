@@ -141,7 +141,27 @@ The Streamlit application delivers:
 - 🔘 **Performance scatter plots** — e.g. xG vs xAG with point size proportional to TOPSIS score.
 - 💾 **Export** — full rankings to CSV for downstream analysis or report generation.
 
-*Example use case demonstrated in the dissertation: ranking AC Milan strikers in Serie A 2024/25 — full ranking, weight breakdown, and Goals × Assists scatter delivered in seconds.*
+The Streamlit application delivers transparent, position-specific player rankings with real-time weighting visualization and exportable reports.
+
+### Serie A 2024/25 — AC Milan Strikers Ranking
+
+<img width="920" height="471" alt="image" src="https://github.com/user-attachments/assets/1725335f-9166-4306-b7ee-1afbe20a1097" />
+*Interface ranking AC Milan strikers in Serie A 2024/25 with TOPSIS scores and Random Forest feature weights.*
+
+### Goals × Assists Scatter Plot
+
+<img width="900" height="460" alt="image" src="https://github.com/user-attachments/assets/78df7c37-63ef-4b3e-8f26-72985323a462" />
+*Scatter plot of goals vs assists sized by TOPSIS score, plus TOPSIS score distribution by player.*
+
+### Liverpool FC — All Positions (FW, MF, DF, GK)
+
+<img width="776" height="1352" alt="image" src="https://github.com/user-attachments/assets/60642401-eade-4786-bd21-528456c14cac" />
+*Player rankings and feature weights for all positions at Liverpool FC using Random Forest weighting.*
+
+### Arsenal FC Forwards — Alternative Criteria Impact
+
+<img width="941" height="811" alt="image" src="https://github.com/user-attachments/assets/bb269af3-f770-4bea-b0f5-d6c3800c0bbc" />
+*Impact of alternative criteria settings on Arsenal forwards: rankings, feature weights, and performance analysis.*
 
 ---
 
