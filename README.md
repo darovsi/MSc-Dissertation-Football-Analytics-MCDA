@@ -172,6 +172,7 @@ The Streamlit application delivers transparent, position-specific player ranking
 ## 🗂️ Repository Structure
 MSc-Dissertation-Football-Analytics-MCDA/ ├── mcdm_tool_2024_2025.py # Main Streamlit application (~600 lines) ├── requirements.txt # Dependencies (pinned versions) ├── README.md # Project documentation ├── .gitignore # Git ignore rules └── LICENSE # Academic & research license
 
+
 **Core components:**
 - `mcdm_tool_2024_2025.py`: Complete pipeline (data loading → ML weighting → TOPSIS → export)
   - 3 objective weighting methods: Random Forest, Entropy, CRITIC
@@ -182,19 +183,20 @@ MSc-Dissertation-Football-Analytics-MCDA/ ├── mcdm_tool_2024_2025.py # Mai
 - `README.md`: Full methodology, usage instructions, and commercial application
 
 ---
+
 ## 🚀 Getting Started
 
-# Clone the repository
+### Clone the repository
+
+```bash
 git clone https://github.com/darovsi/MSc-Dissertation-Football-Analytics-MCDA.git
 cd MSc-Dissertation-Football-Analytics-MCDA
 
-# Create virtual environment & install dependencies
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-
-# Launch the Streamlit DSS
 streamlit run mcdm_tool_2024_2025.py
+```
 
 ## 🔭 Future Work
 
