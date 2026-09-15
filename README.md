@@ -195,9 +195,6 @@ pip install -r requirements.txt
 
 # Launch the Streamlit DSS
 streamlit run mcdm_tool_2024_2025.py
-```
-
----
 
 ## 🔭 Future Work
 
