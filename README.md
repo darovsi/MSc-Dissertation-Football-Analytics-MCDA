@@ -170,13 +170,14 @@ The Streamlit application delivers transparent, position-specific player ranking
 ---
 
 ## 🗂️ Repository Structure
+```
 MSc-Dissertation-Football-Analytics-MCDA/
 ├── mcdm_tool_2024_2025.py      # Main Streamlit application (~600 lines)
 ├── requirements.txt            # Dependencies (pinned versions)
 ├── README.md                   # Project documentation
 ├── .gitignore                  # Git ignore rules
 └── LICENSE                     # Academic & research license
-
+```
 
 **Core components:**
 - `mcdm_tool_2024_2025.py`: Complete pipeline (data loading → ML weighting → TOPSIS → export)
