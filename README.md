@@ -171,22 +171,18 @@ The Streamlit application delivers transparent, position-specific player ranking
 
 ```markdown
 ## 🗂️ Repository Structure
-MSc-Dissertation-Football-Analytics-MCDA/ ├── app/ │ └── mcdm_tool_2024_2025.py # Main Streamlit application (~600 lines) ├── requirements.txt # Dependencies (pinned versions) ├── README.md # Project documentation ├── .gitignore # Git ignore rules └── LICENSE # Academic & research license
+MSc-Dissertation-Football-Analytics-MCDA/ ├── mcdm_tool_2024_2025.py # Main Streamlit application (~600 lines) ├── requirements.txt # Dependencies (pinned versions) ├── README.md # Project documentation ├── .gitignore # Git ignore rules └── LICENSE # Academic & research license
 
 **Core components:**
-- `app/mcdm_tool_2024_2025.py`: Complete pipeline (data loading → ML weighting → TOPSIS → export)
-- Three objective weighting methods: Random Forest, Entropy, CRITIC
-- Position-specific feature engineering (FW, MF, DF, GK)
-- Interactive visualizations (Plotly) + CSV export
-- Validation metrics: NDCG, Kendall's τ, Jaccard@k
-
-- `mcdm_tool_2024_2025.py`: Main Python script containing the full analytical pipeline (Data loading, Weighting with Random Forest/Entropy, TOPSIS implementation, and Results export).
-- `requirements.txt`: List of Python libraries required to run the project.
-- `README.md`: Project documentation and overview.
-
+- `mcdm_tool_2024_2025.py`: Complete pipeline (data loading → ML weighting → TOPSIS → export)
+  - 3 objective weighting methods: Random Forest, Entropy, CRITIC
+  - Position-specific feature engineering (FW, MF, DF, GK)
+  - Interactive visualizations (Plotly) + CSV export
+  - Validation metrics: NDCG, Kendall's τ, Jaccard@k
+- `requirements.txt`: All Python dependencies with pinned versions for reproducibility
+- `README.md`: Full methodology, usage instructions, and commercial application
 
 ---
-```markdown
 ## 🚀 Getting Started
 
 ```bash
@@ -200,7 +196,7 @@ source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
 # Launch the Streamlit DSS
-streamlit run app/mcdm_tool_2024_2025.py
+streamlit run mcdm_tool_2024_2025.py
 ```
 
 ---
