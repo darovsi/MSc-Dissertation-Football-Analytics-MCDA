@@ -246,7 +246,7 @@ I build **evidence-based decision support systems** that help organizations:
 - Predictive modeling with rigorous validation (NDCG, cross-validation)
 - Executive dashboards & interactive DSS (Streamlit/Tableau)
 
-*Contact: johann_oviedo@yahoo.com | LinkedIn: linkedin.com/in/johann-darío-oviedo*
+*Contact: johann_oviedo@yahoo.com | LinkedIn: [linkedin.com/in/johann-darío-oviedo](https://www.linkedin.com/in/johann-dar%c3%ado-oviedo-407078218/)*
 ---
 
 > 💬 *"The DSS is intended to supplement — not replace — the expertise of scouts and managers. It provides interpretable, transparently weighted, position-specific recommendations to inform, not override, professional judgement."*
